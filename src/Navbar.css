@@ -1,0 +1,35 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003366; /* Color de fondo del menú */
+    padding: 10px 20px;
+    color: white;
+    width: 100%; /* Ocupar todo el ancho de la ventana */
+    position: fixed; /* Fija la barra de navegación en la parte superior */
+    top: 0; /* Posición desde la parte superior */
+    left: 0; /* Posición desde la izquierda */
+
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.logo img {
+    height: 50px; /* Ajusta según el tamaño del logo */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00; /* Color de hover */
+}

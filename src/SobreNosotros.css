@@ -1,0 +1,148 @@
+.sobre-nosotros {
+    padding: 100px;
+    background-color: #f9f9f9;
+  }
+
+  
+  h2 {
+    text-align: center;
+    color: #003366; /* Color del título de las secciones */
+    margin-top: 20px;
+  }
+  
+  p{
+    text-align: justify;
+    color: black;
+  }
+  /* Estilos para la sección de CIBERTEC */
+.institucion {
+  padding: 20px; /* Espaciado interno */
+  background-color: #ffffff; /* Fondo blanco para la sección */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  margin: 20px; /* Margen alrededor de la sección */
+}
+
+.institucion h2 {
+  text-align: center; /* Centrar el título */
+  color: #2c3e50; /* Color del texto */
+}
+
+.institucion p {
+  line-height: 1.6; /* Espaciado entre líneas */
+  color: #555; /* Color del texto */
+}
+
+/* Estilos para la imagen */
+.cibertec-image {
+  display: block; /* Para que se comporte como un bloque */
+  margin: 20px auto; /* Centrar la imagen */
+  max-width: 70%; /* Hacer que la imagen no exceda el ancho de su contenedor */
+  border-radius: 8px; /* Bordes redondeados */
+  transition: transform 0.3s ease; /* Transición suave para el efecto */
+  height: 50%;
+}
+
+/* Efecto hover en la imagen */
+.cibertec-image:hover {
+  transform: scale(1.05); /* Aumentar el tamaño al pasar el ratón */
+}
+
+  
+  ul {
+    list-style-type: none; /* Sin viñetas */
+    padding-left: 0; /* Sin sangría */
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+ /* Estilos para la lista de miembros */
+.team-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas para la primera fila */
+  gap: 20px; /* Espaciado entre elementos */
+  list-style-type: none; /* Elimina los puntos de la lista */
+  padding: 0; /* Elimina el padding por defecto */
+}
+
+.team-list li {
+  background-color: #fff; /* Fondo blanco para cada elemento */
+  padding: 15px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+/* A partir del tercer elemento, se cambiará a 3 columnas */
+@media (min-width: 600px) {
+  .team-list {
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas para filas posteriores */
+  }
+}
+
+
+.team-list {
+  list-style-type: none; /* Eliminar los puntos de la lista */
+  padding: 0; /* Eliminar el padding */
+}
+
+.team-member {
+  display: flex; /* Usar flexbox para alinear imagen y texto */
+  align-items: center; /* Alinear verticalmente */
+  margin-bottom: 15px; /* Espaciado entre miembros */
+}
+
+.team-image {
+  width: 50px; /* Ajustar el tamaño de la imagen */
+  height: 50px; /* Ajustar el tamaño de la imagen */
+  border-radius: 50%; /* Hacer la imagen circular */
+  margin-right: 15px; /* Espacio entre la imagen y el texto */
+}
+
+.creadores {
+  margin: 20px; /* Margen alrededor de la sección */
+  padding: 20px; /* Espaciado interno */
+  background-color: #ffffff; /* Fondo blanco para la sección */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  margin: 20px; /* Margen alrededor de la sección */
+}
+
+
+.column {
+  flex: 1; /* Cada columna ocupa el mismo ancho */
+  margin: 10px; /* Espacio entre las columnas */
+  padding: 10px; /* Espacio interno */
+  background-color: #ffffff; /* Fondo blanco para las columnas */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+h2 {
+  color: #333; /* Color del título */
+}
+
+p {
+  color: #555; /* Color del texto */
+  line-height: 1.5; /* Espaciado entre líneas */
+}
+
+.team-list {
+  list-style-type: none; /* Quitar viñetas de la lista */
+  padding: 0; /* Quitar padding de la lista */
+}
+
+.team-member {
+  display: flex; /* Usar flexbox para alinear imagen y texto */
+  align-items: center; /* Centrar verticalmente */
+  margin-bottom: 15px; /* Espacio entre miembros */
+  text-align: justify;
+}
+
+.team-image {
+  width: 50px; /* Ancho de la imagen */
+  height: 50px; /* Alto de la imagen */
+  border-radius: 50%; /* Hacer la imagen circular */
+  margin-right: 10px; /* Espacio a la derecha de la imagen */
+}
